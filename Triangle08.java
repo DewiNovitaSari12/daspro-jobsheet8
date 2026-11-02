@@ -6,9 +6,10 @@ public class Triangle08 {
         int n = sc.nextInt();
 
         int i =0;
-        while (i <= n){
+         while (i <= n) {
+            System.out.print("[i=" + i + "] ");//temporary debug
             int j = 0;
-            while (j <i){
+            while (j <= i) {
                 System.out.print("*");
                 j++;
             }
